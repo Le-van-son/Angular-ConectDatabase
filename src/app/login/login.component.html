@@ -1,0 +1,30 @@
+<form [formGroup]="accForm" (ngSubmit)="registerAccount()">
+  <p>
+    <label for="name">id: </label>
+    <input type="text" id="id" name="id" formControlName="id">
+  </p>
+  <p>
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" formControlName="name">
+  </p>
+  <p>
+    <label for="name">email: </label>
+    <input type="email" id="email" name="email" formControlName="email">
+  </p>
+  <p>
+    <label for="name">pass: </label>
+    <input type="password" id="password" name="password" formControlName="password">
+  </p>
+  <p>
+    <label for="name">age: </label>
+    <input type="number" id="age" name="age" formControlName="age">
+  </p>
+  <p>
+    <label for="name">gender: </label>
+    <input type="text" id="gender" name="gender" formControlName="gender">
+  </p>
+  <p>
+    <button type="submit">Register</button>
+  </p>
+</form>
+<hr>
